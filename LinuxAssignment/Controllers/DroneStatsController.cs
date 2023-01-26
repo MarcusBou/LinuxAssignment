@@ -14,10 +14,10 @@ namespace LinuxAssignment.Controllers
             var curryear = 2023;
             var lastyear = 2000;
             var rand = new Random();
-            var stats = new List<DroneRepairStatisticYearly>();
+            var stats = new List<DroneCertStatisticYearly>();
             for (int i = curryear; i >= lastyear; i--)
             {
-                stats.Add(new DroneRepairStatisticYearly() { Year = i, NumberOfRepairs = rand.Next(5000, 20000) });
+                stats.Add(new DroneCertStatisticYearly() { Year = i, NumberOfCert = rand.Next(5000, 20000) });
             }
             return Ok(stats);
         }

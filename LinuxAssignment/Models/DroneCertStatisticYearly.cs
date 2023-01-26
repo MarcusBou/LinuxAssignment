@@ -1,9 +1,9 @@
 ﻿namespace LinuxAssignment.Models
 {
-    public class DroneRepairStatisticYearly
+    public class DroneCertStatisticYearly
     {
         public int Year { get; set; }
-        public long NumberOfRepairs { get; set; }
+        public long NumberOfCert { get; set; }
         
     }
 }
