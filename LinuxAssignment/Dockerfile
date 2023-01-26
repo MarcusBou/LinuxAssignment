@@ -6,6 +6,8 @@ EXPOSE 80
 EXPOSE 443
 EXPOSE 5098
 
+ENV DOTNET_URLS=http//:5000
+
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["./LinuxAssignment.csproj", "LinuxAssignment/"]
