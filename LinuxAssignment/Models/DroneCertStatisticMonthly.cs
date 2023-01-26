@@ -1,6 +1,6 @@
 ﻿namespace LinuxAssignment.Models
 {
-    public class DroneCertStatisticMonthly: DroneCertStatisticYearly
+    public class DroneCertStatisticMonthly : DroneCertStatisticYearly
     {
         public string Month { get; set; }
     }

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31919.166
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinuxAssignment", "LinuxAssignment\LinuxAssignment.csproj", "{67EBE5EA-DE90-4E31-952E-A3A92CC8204A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinuxAssignment", "LinuxAssignment\LinuxAssignment.csproj", "{96D9E6A1-87B5-488A-A646-435E82C5562F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{67EBE5EA-DE90-4E31-952E-A3A92CC8204A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67EBE5EA-DE90-4E31-952E-A3A92CC8204A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67EBE5EA-DE90-4E31-952E-A3A92CC8204A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67EBE5EA-DE90-4E31-952E-A3A92CC8204A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D9E6A1-87B5-488A-A646-435E82C5562F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D9E6A1-87B5-488A-A646-435E82C5562F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D9E6A1-87B5-488A-A646-435E82C5562F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D9E6A1-87B5-488A-A646-435E82C5562F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3A43AD24-EC5D-44BF-9FDD-18FD022419F7}
+		SolutionGuid = {D852B87E-400C-447D-BEB9-F7E9AC76FAE4}
 	EndGlobalSection
 EndGlobal
