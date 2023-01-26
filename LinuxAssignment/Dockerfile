@@ -9,8 +9,8 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["LinuxAssignment/LinuxAssignment.csproj", "LinuxAssignment/"]
 RUN dotnet restore "LinuxAssignment/LinuxAssignment.csproj"
-COPY . .
 WORKDIR "/src/LinuxAssignment"
+COPY . .
 RUN dotnet build "LinuxAssignment.csproj" -c Release -o /app/build
 
 FROM build AS publish
